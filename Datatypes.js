@@ -19,3 +19,16 @@ console.log(parseInt('1010hsh'))// only give number
 console.log(typeof(100+''))// string
 // How to convert string to Number
 console.log(typeof(+"avneesh"))// number
+
+/************* boolean********* */ 
+// true=1 and False=0
+console.log(1.9999999999999999)// 2
+
+/******* Undefiend*********/
+console.log(+undefined)// NaN
+console.log(typeof(-undefined))// number
+console.log(typeof(undefined))
+
+/* Null */
+console.log(+null)
+console.log(typeof(+null))
