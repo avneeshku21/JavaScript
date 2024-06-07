@@ -29,6 +29,6 @@ console.log(+undefined)// NaN
 console.log(typeof(-undefined))// number
 console.log(typeof(undefined))
 
-/* Null */
+/* Null ****/
 console.log(+null)
 console.log(typeof(+null))
