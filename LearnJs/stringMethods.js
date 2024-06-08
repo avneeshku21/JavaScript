@@ -11,6 +11,22 @@
  Method
  toUpperCase()
  toLowercase()
+
+Methods with aruguments
+includes()
+indexof()
+replace()
+replaceAll()
+concat()
+padStart()
+padEnd()
+charAt()
+charCodeAt()
+split()
+
+
+
+
  
  String Method - charAt:
 
