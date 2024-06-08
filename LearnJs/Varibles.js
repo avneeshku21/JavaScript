@@ -5,6 +5,10 @@
 // const
 //var
 
-let username="avneesh"
+let firstname="Avneesh"
+let lastname='Kumar'
 let age =21
 console.log(age)
+
+let userIntro='Hey I am ' +firstname+' '+lastname
+console.log(userIntro)
