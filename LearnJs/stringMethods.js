@@ -141,5 +141,10 @@ console.log(new Date().getDate()); // Current day of the month
  //console.log(newUser1.indexOf('am'))
 
  let newUser2='Hello Namastey Bharat'
+ let newuser3='Mai Avneesh'
+ let result=newUser2.concat(' ',newuser3)
+ console.log(result)
+ 
+
  console.log(newUser2.replace('Hello','hey'))
 
