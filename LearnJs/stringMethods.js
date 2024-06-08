@@ -149,7 +149,7 @@ console.log(new Date().getDate()); // Current day of the month
  console.log(newUser2.replace('Hello','hey'))
 
  let text = "1234";
-let padded = text.padStart(16,"*");
+let padded = text.padStart(5,"*");
 console.log(padded)
  
 
