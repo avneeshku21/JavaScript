@@ -1,4 +1,9 @@
-/* Variblesss*/ 
+/* Variblesss
+Capital Letter A to Z
+Small Letter a to z
+Digit 0 to 9
+Special Char- only special char Dollor $ and _ underscore
+*/ 
 
 
 // let 
