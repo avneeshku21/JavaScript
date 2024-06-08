@@ -131,5 +131,6 @@ console.log(new Date().getDate()); // Current day of the month
 const newUser='        Hi I am Avneesh     '
 console.log(newUser)
 console.log(newUser.trimStart())
-const final=newUser.trim().toUpperCase()
-console.log(final)
+const final=newUser.trim()
+
+console.log(final.includes("am"))// its check the value present or not
