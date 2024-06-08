@@ -10,7 +10,9 @@
  */
 alert('hello kaise ho ap log')
 confirm('Ap hi ho ya koi aur')// boolean
-prompt("To kaise hai ap log")
+const userInput=prompt("To kaise hai ap log")
 
  const isConfirmed= confirm('Would your like to yes')
  console.log(isConfirmed)
+
+ console.log(userInput)
