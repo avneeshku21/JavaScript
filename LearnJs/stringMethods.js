@@ -128,9 +128,18 @@ console.log(new Date().getDate()); // Current day of the month
 
 // console.log(new Date().getMonth() + 1);
 
-const newUser='        Hi I am Avneesh     '
-console.log(newUser)
-console.log(newUser.trimStart())
-const final=newUser.trim()
+// const newUser='        Hi I am Avneesh     '
+// console.log(newUser)
+// console.log(newUser.trimStart())
+// const final=newUser.trim()
 
-console.log(final.includes("am"))// its check the value present or not
+// console.log(final.includes("am"))// its check the value present or not
+
+//let newUser1='Hey i am Avneesh'
+// console.log(newUser1.indexOf('i'))
+// console.log(newUser1.indexOf('a'))
+ //console.log(newUser1.indexOf('am'))
+
+ let newUser2='Hello Namastey Bharat'
+ console.log(newUser2.replace('Hello','hey'))
+
