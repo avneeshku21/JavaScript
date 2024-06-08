@@ -34,5 +34,6 @@ const hoursInDay=24
 // Var ko bhi dobara declear kr skte hai
 // var keyword ko ham block of code k bahar se bhi Access krte  Sakte hai
 
-
+/****************Main Differnce****** */ 
+//var declarations are globally scoped or function scoped while let and const are block scoped.
 
