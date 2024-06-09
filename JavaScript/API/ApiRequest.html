@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: bisque;">
+    JavaScript is the scripting language used to add dynamic functionality to web pages. This topic teaches all the essentials needed to become comfortable with writing and understanding JavaScript.
+</body>
+<script>
+    const requestUrl='https://api.github.com/users/avneeshk021'
+    const xhr=new XMLHttpRequest();
+    xhr.open('GET','requestUrl')
+    xhr.onreadystatechange=function(){
+        console.log(xhr.readyState);
+        if(xhr.readyState===4){
+            const data=JSON.parse(this.responseText)
+            console.log(data);
+        }
+    }
+   
+    xhr.send();
+</script>
+</html>

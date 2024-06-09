@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello to Kaise hai ap log</h1>
+    <button id="stop">Stop</button>
+   
+</body>
+<script>
+//     setTimeout(function(){
+// console.log("Avneesh");
+//     },2000)
+//     setInterval(function(){
+// //console.log("chai pi lo");
+//     },2000)
+const sayAvii=function(){
+    console.log("Avneesh");
+}
+const changText=function()
+{
+    document.querySelector('h1').innerHTML="Namastey Bharat"
+}
+setTimeout(changText,5000)
+setTimeout(sayAvii,2000)
+</script>
+</html>

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    
+}
+.count{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: blue;
+    padding: 10px 16px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.changeBY{
+    height: 2rem;
+    width: 5rem;
+font-size: 1rem;
+margin: 16px 8px;
+}
