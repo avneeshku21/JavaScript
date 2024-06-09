@@ -33,6 +33,6 @@ function getRoot2() {
   console.log(d)
   let e=Math.round(2.5)
   console.log(e)
-  let random=Math.random()*10
+  let random=Math.floor(Math.random()*10)
   console.log(random)
 
