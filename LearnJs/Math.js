@@ -31,4 +31,6 @@ function getRoot2() {
   console.log(c)
   let d=Math.ceil(-2.99)//-2
   console.log(d)
+  let e=Math.round(2.40)
+  console.log(e)
 
