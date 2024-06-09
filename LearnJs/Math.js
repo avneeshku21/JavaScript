@@ -27,8 +27,8 @@ function getRoot2() {
   console.log(getRoot2());
 
   // Math Floor
-  let c=Math.floor(2.99)
+  let c=Math.floor(-2.99)// -3
   console.log(c)
-  let d=Math.ceil(2.99)
+  let d=Math.ceil(-2.99)//-2
   console.log(d)
 
