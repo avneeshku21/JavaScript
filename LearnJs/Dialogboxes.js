@@ -1,6 +1,6 @@
 
 /****************Dialog Boxes*********************
- 
+ git push -u -f origin main
 1 alert("Your message goes here")
 
 2 confirm("Your message goes here")
