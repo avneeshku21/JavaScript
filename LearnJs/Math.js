@@ -1,5 +1,5 @@
 
-/********************Math Opertor
+/********************Math Operator
  1 Addition +
  2 Subtraction -
  3 Multiplication *
@@ -36,7 +36,7 @@ function getRoot2() {
   let random=Math.floor(Math.random()*10)
   console.log(random)
 
-  function randomIntFromInterval(min, max) { // min and max included 
+  function randomIntFromInterval(min, max) { // Min and max included 
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
