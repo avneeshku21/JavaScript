@@ -7,7 +7,7 @@
  5 Remainder/ Modulo %
  6 Exponentiation**
 ********************* */
-//*****Exponetiation***** */ 
+//*****Exponetiation********* */ 
 
 // b= 15**2
 // a=2**10
